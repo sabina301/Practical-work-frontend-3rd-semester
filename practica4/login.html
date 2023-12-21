@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style_log.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Вход</legend>
+        <p>
+          <label for="email">Введите почту: </label>
+          <input
+            class="input_value"
+            type="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            required
+            placeholder="Ваша почта"
+          />
+        </p>
+        <p>
+          <label for="password">Введите пароль: </label>
+          <input
+            class="input_value"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Ваш пароль"
+            required
+          />
+        </p>
+        <p>
+          <label for="submit"></label>
+          <input type="submit" name="submit" id="submit" required />
+        </p>
+        <p>Нет аккаунта?</p>
+        <a href="registration.html" class="button">Зарегистрироваться</a>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5%;
+  border-width: 10px;
+  border-color: #3e8e41;
+  width: 300px;
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+}
+
+.input_value {
+  padding: 4%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-top: 8%;
+  margin-bottom: 15px;
+}
+
+.input_value {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4caf50;
+}
+
+input[type="submit"] {
+  padding: 4%;
+  background-color: #b64a10;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.input_value::placeholder {
+  color: #ffa984;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #acd8ae;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #61a463;
+}
+
+.button:focus {
+  outline: none;
+  background-color: #79734c;
+}

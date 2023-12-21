@@ -1,0 +1,87 @@
+body {
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5%;
+  border-width: 10px;
+  border-color: #3e8e41;
+  width: 40%;
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+}
+
+.input_value {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 320px;
+}
+
+.input_value {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4caf50;
+}
+
+.input_value::placeholder {
+  color: #994c22;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #dd560e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #acd8ae;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #61a463;
+}
+
+.button:focus {
+  outline: none;
+  background-color: #79734c;
+}
+
+#about {
+  background-color: #f2f2f2;
+  border-radius: 5%;
+  padding: 15px;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 150px;
+  min-width: 100px;
+  min-height: 100px;
+  border-width: 3px;
+  border-color: #3e8e41;
+}

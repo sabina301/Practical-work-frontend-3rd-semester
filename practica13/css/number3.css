@@ -1,0 +1,11 @@
+ul {
+  padding: 30px;
+  background-color: darkgray;
+  font-family: "Vollkorn SC", serif;
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+  margin: 10px;
+}

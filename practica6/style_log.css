@@ -1,0 +1,73 @@
+body {
+  background-color: #000000;
+}
+
+form {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(128, 139, 150),
+    rgb(119, 119, 130)
+  );
+  padding: 20px;
+  border-radius: 5%;
+  border-width: 10px;
+  border-color: rgb(222, 124, 139);
+  width: 400px;
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 5%;
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+}
+
+.input_value {
+  padding: 4%;
+  border: none;
+  border-radius: 5px;
+  background-color: #dabcc6;
+  margin-top: 8%;
+  margin-bottom: 15px;
+}
+
+.input_value {
+  font-size: 17px;
+  font-family: "Vollkorn SC", serif;
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgb(222, 124, 139);
+}
+
+input[type="submit"] {
+  font-size: 17px;
+  font-family: "Vollkorn SC", serif;
+  padding: 4%;
+  background-color: rgb(222, 124, 139);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}
+
+.input_value::placeholder {
+  color: #000000;
+}
+
+.button {
+  font-size: 17px;
+  font-family: "Vollkorn SC", serif;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(222, 124, 139);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(222, 124, 139);
+}
+
+.button:focus {
+  outline: none;
+  background-color: #6e1e2a;
+}

@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#contents {
+  border: 1px solid #ffb1b1;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}

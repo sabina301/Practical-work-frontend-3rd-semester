@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Перетаскивание в корзину</title>
+    <link rel="stylesheet" href="/css/num5.css" />
+  </head>
+  <body>
+    <div class="store">
+      <div class="item" data-price="40" draggable="true">Товар 40 руб</div>
+      <div class="item" data-price="50" draggable="true">Товар 50 руб</div>
+      <div class="item" data-price="65" draggable="true">Товар 65 руб</div>
+    </div>
+
+    <div class="cart">
+      <h2 style="text-align: center">Корзина</h2>
+      <div id="cart" class="cart-items" droppable="true"></div>
+      <p id="total">Итого: 0 руб</p>
+    </div>
+
+    <script src="/script/num5.js"></script>
+  </body>
+</html>

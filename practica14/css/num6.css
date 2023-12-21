@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.animated-background,
+.scale-animation {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.animated-background {
+  background-color: #db34c2;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+.scale-animation {
+  background-color: #3d5aff;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.scale-animation:hover {
+  transform: scale(1.1);
+}

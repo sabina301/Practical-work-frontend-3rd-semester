@@ -1,0 +1,204 @@
+h1 {
+  color: maroon;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  color: chocolate;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  color: darkred;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav_bar_link {
+  color: chocolate;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav_bar_help {
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+.text-help {
+  color: white;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 50px;
+  width: max-content;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+.quote {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: indigo;
+  font-size: 13px;
+}
+
+.clothes_list_link {
+  color: chocolate;
+  text-decoration: none;
+}
+
+.definition-head {
+  color: indigo;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.definition-body {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+nav {
+  background-color: #484848;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.ul-nav-bar-link {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.li-nav-bar-link {
+  float: left;
+}
+
+.header-logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  border-radius: 30%;
+  margin-right: 20px;
+}
+
+.geo-phone-entrance {
+  display: flex;
+  align-items: center;
+  justify-content: 100px;
+  width: auto;
+}
+
+.geo {
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.reg {
+  text-align: right;
+  margin-left: auto;
+  width: max-content;
+  margin-right: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.category-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 19px;
+  margin: 20px;
+}
+
+.cloth-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.category-name {
+  border-radius: 5%;
+}
+
+.ul-address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-address {
+  flex: 1;
+}
+
+.help-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: chocolate;
+  text-decoration: none;
+}
+
+.help-link:visited {
+  color: brown;
+}
+
+.text-to-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #7e4f29;
+  font-style: italic;
+  color: #585858;
+}
+
+/*селектор потомков*/
+ul li {
+  font-size: 15px;
+}
+
+/*сестринский селектор*/
+h1 + p {
+  color: brown;
+  font-weight: 600;
+}
+
+/*дочерний селектор*/
+h1 > p {
+  font-weight: 600;
+}
+
+.li-nav-bar-link a:hover {
+  background-color: #333333;
+}
+
+.li-nav-bar-link a:active {
+  background-color: black;
+}

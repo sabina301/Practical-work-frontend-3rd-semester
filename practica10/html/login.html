@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style_log.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@800&family=Raleway:ital,wght@0,200;1,200;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oi&family=Orbitron:wght@800&family=Raleway:ital,wght@0,200;1,200;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <span></span>
+    <span></span>
+    <span></span>
+    <h2>Каптча</h2>
+    <form id="captchaForm" onsubmit="validateCaptcha(event)">
+      <div id="captcha"></div>
+      <input type="text" id="captchaInput" placeholder="Введите капчу" />
+      <button type="submit" id="submitButton">Отправить</button>
+    </form>
+
+    <script src="/script/capcha.js"></script>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Вход</legend>
+        <div class="aaa">
+          <p>
+            <input
+              class="input_value"
+              type="email"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+              placeholder="Ваша почта"
+            />
+          </p>
+          <p>
+            <input
+              class="input_value"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Ваш пароль"
+              required
+            />
+          </p>
+          <p>
+            <input type="submit" id="button-g" disabled onclick="fun()" />
+          </p>
+          <a href="/html/registration.html" class="button"
+            >Нет аккаунта? Зарегистрируйтесь</a
+          >
+        </div>
+      </fieldset>
+    </form>
+  </body>
+  <script src="/script/capcha.js"></script>
+</html>

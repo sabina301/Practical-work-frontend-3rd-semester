@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration</title>
+    <link rel="stylesheet" href="style_reg.css" />
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Регистрация</legend>
+        <p>
+          <label for="name">Введите имя: </label>
+          <input
+            placeholder="Ваше имя"
+            class="input_value"
+            type="text"
+            name="name"
+            id="name"
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Введите почту: </label>
+          <input
+            placeholder="Ваш email"
+            class="input_value"
+            type="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            required
+          />
+        </p>
+        <p>
+          <label name="tel">Введите телефон: </label>
+          <input
+            placeholder="Ваш телефон"
+            class="input_value"
+            type="tel"
+            name="tel"
+            id="tel"
+          />
+        </p>
+        <p>
+          <label for="password">Введите пароль: </label>
+          <input
+            class="input_value"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Ваш пароль"
+            required
+          />
+        </p>
+        <p>
+          <label for="datetime-local">Введите дату рождения: </label>
+          <input
+            class="input_value"
+            type="datetime-local"
+            name="datetime-local"
+            id="datetime-local"
+            min="1900-01-07T00:00"
+            max="2010-06-14T00:00"
+          />
+        </p>
+        <p>
+          <label for="file">Прикрепите аватарку: </label>
+          <input type="file" name="file" id="file" />
+        </p>
+        <p>
+          <label for="checkbox">Присылать рассылки: </label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            checked
+            required
+          />
+        </p>
+        <p>
+          <label for="radio">Присылать рассылки: </label>
+          <input type="radio" name="radio" id="radio" checked required />
+        </p>
+        <label for="about">Добавьте описание: </label><br />
+        <textarea
+          name="about"
+          id="about"
+          cols="30"
+          rows="10"
+          maxlength="100"
+          minlength="1"
+          placeholder="Текст о вас"
+          required
+        ></textarea>
+        <p>
+          <label for="submit"></label>
+          <input type="submit" name="submit" id="submit" required />
+        </p>
+        <p>Уже зарегистрированы?</p>
+        <a href="login.html" class="button">Войти</a>
+      </fieldset>
+    </form>
+  </body>
+</html>
